@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="scripts/script.js"></script>
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Saudação</title>
+    
+</head>
+<body id="bgColor">
+    <section>
+        <div id="header">
+            <p>Selecione o periodo do dia:</p>
+            <div id="controles">
+                <nav>
+                    <input type="radio" name="dia" id="manha" value="Manhã" checked><label for="manha" >Manhã</label>
+                    <input type="radio" name="dia" id="tarde" value="Tarde" ><label for="tarde">Tarde</label>
+                    <input type="radio" name="dia" id="noite" value="Noite" ><label for="noite">Noite</label>
+                </nav>
+                <input type="button" value="Saudar" id="btn" onclick="initial()" onmouseenter="mouseEnter()" onmouseout="mouseOut()">
+            </div>
+        </div>
+        <div id="imagem">
+            <img src="imagem/paisagem/amanhecer300x300.jpg" alt="Imagem" id="foto">
+        </div>
+        <div id="text">Bom dia!</div>
+    </section>
+    <footer id="rodape">
+        <p>Product by.: A. Ribeiro</p>
+        <p>&copy; 2022 Copyright - Wincorp Education</p>
+    </footer>
+</body>
+</html>
