@@ -7,18 +7,15 @@ function initial(){
         foto.src = 'imagem/paisagem/amanhecer300x300.jpg'
         texto.innerHTML = 'Bom dia!'
         back.style.background = '#ffcd91'
-        rodape.style.color = 'black'
 
     }else if (tarde.checked){
         foto.src = 'imagem/paisagem/paisagem-tarde300x300.JPG'
         texto.innerHTML = 'Boa Tarde!'
         back.style.background = 'cornflowerblue'
-        rodape.style.color = 'black'
     }else {
         foto.src = 'imagem/cidade/cidade-noite300x300.jpg'
         texto.innerHTML = 'Boa Noite!'
         back.style.background = '#001a5f'
-        rodape.style.color = 'white'
     }
 }
 
